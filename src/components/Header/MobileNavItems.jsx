@@ -15,6 +15,7 @@ const MobileNavItems = ({ isOpen, setIsOpen }) => {
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' })
         }
+        setIsOpen(false)
     }
 
     return (
